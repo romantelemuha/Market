@@ -11,12 +11,12 @@ async function sendData(e){
 
     const name=e.target.name.value;
     const lastName=e.target.lastName.value;
-    const phone=e.target.phone.value;
+    const number=e.target.number.value;
 
     const message=`**Нове замовлення**\n\n
                     **Ім'я**: ${name}\n
                     **Прізвище**: ${lastName}\n
-                    **Номер телефону**: ${phone}\n`;
+                    **Номер телефону**: ${number}\n`;
 
    
     try{

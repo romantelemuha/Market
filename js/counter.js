@@ -6,12 +6,12 @@ const decrementBtn = document.getElementById('decrement-btn');
 
 incrementBtn.addEventListener('click', () => {
     counter++;
-    counterValue.innerHTML = counter;
+    counterValue.textContent = counter;
 });
 
 decrementBtn.addEventListener('click', () => {
     if (counter > 0) {
         counter--;
-        counterValue.innerHTML = counter;
+        counterValue.textContent = counter;
     }
 });
